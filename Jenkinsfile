@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/your-repo.git', branch: 'develop'
+                git url: 'https://github.com/sunny-sid16/jenkin_assing1.git', branch: 'develop'
             }
         }
         stage('Build') {
